@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <base href="/">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/assets/css/styles.css" />
+
+    <title> Lotus Landing Page | {{ page_name }}</title>
+</head>
+
+<body class="{{ page_name }}">
+    <div class="background">
+        <div class="blur noisy"></div>
+        <div class="content">
+            {% include "partials/header.html" %}
+            <div class="main">
+                {% block content %}{% endblock %}
+            </div>
+            {% include "partials/footer.html" %} {% block scripts %}{% endblock %}
+        </div>
+    </div>
+    <script src="/assets/scripts/index.js"></script>
+</body>
+
+</html>

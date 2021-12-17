@@ -1,0 +1,20 @@
+{
+    "name": "gulp-nunjucks",
+    "version": "1.0.0",
+    "description": "Gulp & Nunjucks setup example",
+    "main": "index.js",
+    "devDependencies": {
+        "del": "^6.0.0",
+        "gulp": "^4.0.2",
+        "gulp-beautify": "^3.0.0",
+        "gulp-connect": "^5.7.0",
+        "gulp-nunjucks-render": "^2.2.3",
+        "gulp-open": "^3.0.1"
+    },
+    "scripts": {
+        "start": "gulp",
+        "build": "gulp build"
+    },
+    "author": "Esther Maduabuchi",
+    "license": "ISC"
+}
